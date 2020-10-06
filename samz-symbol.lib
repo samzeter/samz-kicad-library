@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Pad
+#
+DEF Pad X 0 40 N Y 1 F N
+F0 "X" 50 0 50 H V C CNN
+F1 "Pad" -50 100 50 H V C CNN
+F2 "samz-footprint:Pad" -50 150 50 H I C CNN
+F3 "" -50 150 50 H I C CNN
+DRAW
+S 0 50 200 -50 0 1 0 f
+X ~ 1 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
